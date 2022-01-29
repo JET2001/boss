@@ -26,4 +26,7 @@ Here's a list of all the variables used in the models:
 | school                 | The school offering the course {e.g. SOE}                                                     |
 | year                   | The academic year in which the course was offered                                             |
 
-I plan to incorporat a GUI, likely a dashborad, for the same analysis in the future.
+
+The model which performed the best is the Decision Tree Regression with a R2 score of 51.2%. Despite running a 100-tree random forest algorithm, its R^2 value failed to surpass that of the Decision tree, indicating an upper limit on the predictive capabilities of the model. Limitations likely stem from the large number of one hot encoded features in the model rather than numerical features. In the future, I'd like to explore other algorithms like CatBoosting and additional feature engineering such as section or course grouping counts to see whether they can improve model performance.
+
+I am building a dashboard using Dash and Plotfly for users to easily conduct filtered analysis.
