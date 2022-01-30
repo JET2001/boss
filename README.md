@@ -27,4 +27,4 @@ Here's a list of all the variables used in the models:
 | year                   | The academic year in which the course was offered                                             |
 
 
-The model which performed the best is the Random Forest with a R2 score of 65%. Limitations for the model likely stem from the large number of one hot encoded features in the model rather than numerical features. In the future, I'd like to explore other algorithms like CatBoosting and additional feature engineering such as section or course grouping counts to see whether they can improve model performance.
+The model which performed the best is the Random Forest with a R2 score of 65%. Limitations for the model likely stem from the large number of one hot encoded features in the model rather than numerical features. In the future, I'd like to explore other algorithms like CatBoosting and additional feature engineering such as section or course grouping counts to see whether they can improve model performance. I'd also want to conduct a feature importance test and potentially tailor my analysis towards those specific features.
