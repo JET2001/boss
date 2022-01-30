@@ -28,5 +28,3 @@ Here's a list of all the variables used in the models:
 
 
 The model which performed the best is the Random Forest with a R2 score of 65%. Limitations for the model likely stem from the large number of one hot encoded features in the model rather than numerical features. In the future, I'd like to explore other algorithms like CatBoosting and additional feature engineering such as section or course grouping counts to see whether they can improve model performance.
-
-I am building a dashboard using Dash and Plotfly for users to easily conduct filtered analysis.
